@@ -58,7 +58,10 @@ func main() {
 	copy(copySlice, newSlice)
 	fmt.Println(copySlice)
 
+	//tipe data array
 	iniArray := [5]int{1, 2, 3, 4, 5}
+
+	//tipe data slice
 	iniSlice := []int{1, 2, 3, 4, 5}
 
 	fmt.Println(iniArray)
