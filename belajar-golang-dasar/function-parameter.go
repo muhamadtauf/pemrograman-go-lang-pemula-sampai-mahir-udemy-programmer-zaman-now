@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func sayHelloTo(firstName string, lastName string) {
+	fmt.Println("Hello", firstName, lastName)
+
+}
+
+func main() {
+	firstName := "Taufik"
+	sayHelloTo(firstName, "Kurniawan")
+	sayHelloTo("Eko", "Kurniawan")
+}
